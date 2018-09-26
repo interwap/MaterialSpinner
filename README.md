@@ -13,12 +13,12 @@ Add floating label text, hint and error messages.
 Use this dependency in your build.gradle file to reference this library in your project
 
 ```groovy
-compile 'com.github.ganfra:material-spinner:2.0.0'
+implementation 'com.github.interwap:MaterialSpinner:v2.0.1'
 ```
 
 If you use other libraries requiring appcompat-v7 like [MaterialEditText](https://github.com/rengwuxian/MaterialEditText/) make sure to exclude them if you have issue at compile time :
 ```groovy
-compile ('com.github.ganfra:material-spinner:2.0.0'){
+implementation ('com.github.interwap:MaterialSpinner:v2.0.1'){
         exclude group: 'com.android.support', module: 'appcompat-v7'
 }
 ```
